@@ -1,1 +1,1 @@
-CRUD_ Operations 
+Mini Social media App
