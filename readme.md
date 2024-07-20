@@ -1,1 +1,1 @@
-Mini Social media App
+Mini Social Media App
