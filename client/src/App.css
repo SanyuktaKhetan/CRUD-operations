@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+body{
+    background: linear-gradient(
+        120deg,
+        #E8A0BF 0%,
+        #BA90C6 100%
+    );
+}
+.add_btn{
+    text-align: center;
+}
+.add_btn button{
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.table{
+   margin-top: 50px; 
+}
+.container{
+    overflow: auto;
+}
