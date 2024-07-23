@@ -27,13 +27,13 @@ function Home() {
               <td>9876543210</td>
               <td className="d-flex justify-content-between">
                 <button className="btn btn-success read_btn">
-                  <i class="fa-solid fa-eye"></i>
+                  <i className="fa-solid fa-eye"></i>
                 </button>
                 <button className="btn btn-primary update_btn">
-                  <i class="fa-solid fa-pen"></i>
+                  <i className="fa-solid fa-pen"></i>
                 </button>
                 <button className="btn btn-danger delete_btn">
-                  <i class="fa-solid fa-trash"></i>
+                  <i className="fa-solid fa-trash"></i>
                 </button>
               </td>
             </tr>
@@ -45,13 +45,13 @@ function Home() {
               <td>9638527410</td>
               <td className="d-flex justify-content-between">
                 <button className="btn btn-success read_btn">
-                  <i class="fa-solid fa-eye"></i>
+                  <i className="fa-solid fa-eye"></i>
                 </button>
                 <button className="btn btn-primary update_btn">
-                  <i class="fa-solid fa-pen"></i>
+                  <i className="fa-solid fa-pen"></i>
                 </button>
                 <button className="btn btn-danger delete_btn">
-                  <i class="fa-solid fa-trash"></i>
+                  <i className="fa-solid fa-trash"></i>
                 </button>
               </td>
             </tr>
