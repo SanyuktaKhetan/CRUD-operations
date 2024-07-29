@@ -9,7 +9,7 @@ import "../src/components/Register.js";
 import React from "react";
 import "../src/components/Edit.js";
 import Edit from "../src/components/Edit.js";
-
+import Details from "./components/Details.js";
 const App = () => {
   return (
     <>
@@ -18,6 +18,7 @@ const App = () => {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/register" element={<Register />} />
         <Route exact path="/edit/:id" element={<Edit />} />
+        <Route exact path="/view/:id" element={<Details />} />
       </Routes>
     </>
   );

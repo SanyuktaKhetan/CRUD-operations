@@ -21,6 +21,7 @@ const Edit = () => {
   };
   return (
     <div className="container">
+      <h1 className="edit_h1"> Edit Data</h1>
       <form className="mt-4">
         <div className="row">
           <div className="mb-3 col-lg-6 col-md-6 col-sm-12">

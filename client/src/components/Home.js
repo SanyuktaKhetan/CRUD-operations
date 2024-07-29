@@ -1,5 +1,7 @@
 import React from "react";
-
+import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
+import CreateIcon from "@mui/icons-material/Create";
+import DeleteIcon from "@mui/icons-material/Delete";
 function Home() {
   return (
     <div className="mt-5">
@@ -27,13 +29,13 @@ function Home() {
               <td>9876543210</td>
               <td className="d-flex justify-content-between">
                 <button className="btn btn-success read_btn">
-                  <i className="fa-solid fa-eye"></i>
+                  <RemoveRedEyeIcon />
                 </button>
                 <button className="btn btn-primary update_btn">
-                  <i className="fa-solid fa-pen"></i>
+                  <CreateIcon />
                 </button>
                 <button className="btn btn-danger delete_btn">
-                  <i className="fa-solid fa-trash"></i>
+                  <DeleteIcon />
                 </button>
               </td>
             </tr>
@@ -45,13 +47,13 @@ function Home() {
               <td>9638527410</td>
               <td className="d-flex justify-content-between">
                 <button className="btn btn-success read_btn">
-                  <i className="fa-solid fa-eye"></i>
+                  <RemoveRedEyeIcon />
                 </button>
                 <button className="btn btn-primary update_btn">
-                  <i className="fa-solid fa-pen"></i>
+                  <CreateIcon />
                 </button>
                 <button className="btn btn-danger delete_btn">
-                  <i className="fa-solid fa-trash"></i>
+                  <DeleteIcon />
                 </button>
               </td>
             </tr>
